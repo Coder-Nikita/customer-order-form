@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Order Details</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="">
+        <h1>Order Details</h1>
+        <label for="fname">First Name :</label>
+        <input type="text" id="fname" name="firstname" value="Alice"><br>
+        <label for="lname">Last Name :</label> 
+        <input type="text" id="lname" name="lastname"><br><br>
+        <label for="">Contact Number :</label>
+        <input type="number" maxlength="10"><br><br>
+        <label for="dob">Date Of Birth :</label>
+        <input type="date" id="dob"><br><br>
+        <label for="e">Email :</label>
+        <input type="email" id="e" name="email"><br><br>
+        <label for="p">Password :</label>
+        <input type="password" id="p"><br><br>
+        <label for="">Enter T-shirt Size :</label><br>
+        <label for="s">Small</label>
+        <input type="radio" id="s" name="size" value="small">
+        <label for="m">Medium</label>
+        <input type="radio" id="m" name="size" value="medium">
+        <label for="l">Large</label>
+        <input type="radio" id="l" name="size" value="large"><br><br>
+        <label for="clr">Color :</label>
+        <input type="color" id="clr"><br><br>
+
+        <label for="c">Select City :</label>
+        <select name="City" id="c">
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Kolkata">Kolkata</option>
+        </select><br><br>
+        <p><a href=" support-in@google.com">Contact us</a></p>
+        <label for="gift">Giftbox</label>
+        <input type="checkbox" id="gift">
+        <label for="custom">Details of customization :</label>
+        <textarea name="customization" id="custom" cols="50" rows="5"></textarea><br><br>
+        <input type="reset">
+        <input type="submit"><br><br>
+
+        <label for="g">Status :</label>
+        <select name="Status of the order" id="g">
+            <option value="Booked">Booked</option>
+            <option value="Shipped">Shipped</option>
+            <option value="Delivered">Delivered</option>
+            <option value="Returned">Returned</option>
+            <option value="">None</option>
+        </select>
+
+
+
+    </form>
+    
+</body>
+</html>
