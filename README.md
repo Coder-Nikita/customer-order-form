@@ -17,4 +17,5 @@ This project helps understand how to:
 
 ## 🌐 Preview
 
-(Screenshot coming soon)
+![Order Details Preview](images/order-form-preview.png)
+
